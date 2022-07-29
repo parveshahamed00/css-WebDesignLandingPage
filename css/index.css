@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+body{
+    padding: 4% 5%;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav img[alt="logo"]{
+    width: 7%;
+}
+.nav-items{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-items .nav-item{
+    font-family: 'Roboto';
+color: #544F94;
+
+}
+.nav-items .nav-item:hover{
+    color: #000;
+}
+.signin-btn{
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 6%;
+    font-size: 12px;
+    padding: 0.4% 0;
+    border-radius: 30px;
+    border: 0;
+    color: #f5f5f5;
+}
+/* intro-section */
+.intro-section{
+    display: flex;
+
+    /* align-items: center; */
+}
+.imgs-div{
+    width: 100%;
+}
+img[alt="vector-img"],img[alt="vector-dot"]{
+position: absolute;
+bottom: 10%;
+left: 45%;
+}
+img[alt="intro-img"]{
+    top: 0;
+    right: 0;
+    z-index: -1;
+    padding:6% 7%;
+    border-radius: 0% 0% 20% 80%;
+
+    position: absolute;
+    width: 40%;
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+}
+.left-section{
+    margin-top: 10%;
+    padding: 0 9%;
+}
+.left-section h1{
+    font-family: 'Roboto';
+    color: #544F94;
+
+font-size: 60px;
+}
+.left-section h4{
+    font-family: 'Roboto';
+color: #8A8CA5;
+font-size: 12px;
+margin:8% 0;
+
+}
+.learn-more-btn{
+    width: 60%;
+    padding: 3%;
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #965CF2, #FF8ADC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #965CF2, #FF8ADC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 0;
+    color: #f5f5f5;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
