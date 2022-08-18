@@ -11,6 +11,9 @@ nav{
     justify-content: space-evenly;
     align-items: center;
 }
+.toogle-icon{
+    display: none;
+}
 nav img[alt="logo"]{
     width: 7%;
 }
@@ -32,12 +35,13 @@ color: #544F94;
     background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
-    width: 6%;
+    width: auto;
     font-size: 12px;
-    padding: 0.4% 0;
+    padding: 1% 3%;
     border-radius: 30px;
     border: 0;
     color: #f5f5f5;
+    font-weight: 600;
 }
 /* intro-section */
 .intro-section{
@@ -97,4 +101,46 @@ margin:8% 0;
     font-size: 16px;
     font-weight: 600;
 
+}
+@media only screen and (max-width: 668px) {
+.toogle-icon{
+    display: unset;
+    border: 1px solid #FF8ADC;
+    border-radius: 2px;
+    color: gray;
+}
+.nav-items{
+    display: none;
+}
+nav img[alt="logo"]{
+    width: 14%;
+    order: 2;
+}
+.signin-btn{
+    order: 3;
+}
+nav{
+    justify-content: space-between;
+}
+.intro-section{
+    flex-direction: column !important;
+
+    /* justify-content: center; */
+}
+img[alt="vector-img"],img[alt="vector-dot"]{
+    display: none;
+}
+img[alt="intro-img"]{
+    margin: 5% 0;
+    width:85%;
+position: unset;
+    border-radius: 5% 10% 20% 50%;
+
+}
+.left-section{
+    order: 2;
+}
+.left-section h1{
+    font-size: 3em;
+}
 }
